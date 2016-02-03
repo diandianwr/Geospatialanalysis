@@ -36,8 +36,6 @@ for i in range(0,len(fip)):
     arcpy.FeatureClassToFeatureClass_conversion(inFeature, outLocation, 
     outFeatureClass, expression)
     
-    outLocation1 = "U:/geog458/saep_bg10_lab1/geojson/"
-    arcpy.FeatureClassToFeatureClass_conversion(inFeature, outLocation, outFeatureClass, expression)
     
 
 #shp file to geojson
